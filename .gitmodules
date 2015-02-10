@@ -7,3 +7,6 @@
 [submodule "meta-selinux"]
 	path = meta-selinux
 	url = git://git.yoctoproject.org/meta-selinux
+[submodule "bitbake"]
+	path = bitbake
+	url = git://git.openembedded.org/bitbake.git
