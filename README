@@ -1,5 +1,9 @@
-OpenEmbedded-Core
+OpenEmbedded-openxt
 =================
+This repo is a clone of the OpenEmbedded-Core repo with git submodules added
+for repos needed for openxt. Slowly each openxt component will be merged into
+it and the build will be fixed.
+
 
 OpenEmbedded-Core is a layer containing the core metadata for current versions
 of OpenEmbedded. It is distro-less (can build a functional image with
