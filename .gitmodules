@@ -10,3 +10,6 @@
 [submodule "bitbake"]
 	path = bitbake
 	url = git://git.openembedded.org/bitbake.git
+[submodule "meta-openxt"]
+	path = meta-openxt
+	url = https://github.com/dpquigl2/meta-openxt.git
