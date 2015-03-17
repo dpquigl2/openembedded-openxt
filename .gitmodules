@@ -13,3 +13,6 @@
 [submodule "meta-openxt"]
 	path = meta-openxt
 	url = https://github.com/dpquigl2/meta-openxt.git
+[submodule "meta-virtualization"]
+	path = meta-virtualization
+	url = git://git.yoctoproject.org/meta-virtualization
