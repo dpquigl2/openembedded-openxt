@@ -3,7 +3,7 @@
 	url = git://git.openembedded.org/meta-openembedded
 [submodule "meta-java"]
 	path = meta-java
-	url = https://github.com/woglinde/meta-java.git
+	url = git://git.yoctoproject.org/meta-java
 [submodule "meta-selinux"]
 	path = meta-selinux
 	url = git://git.yoctoproject.org/meta-selinux
