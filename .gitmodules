@@ -16,3 +16,6 @@
 [submodule "meta-virtualization"]
 	path = meta-virtualization
 	url = git://git.yoctoproject.org/meta-virtualization
+[submodule "meta-measured"]
+	path = meta-measured
+	url = https://github.com/flihp/meta-measured.git
