@@ -19,3 +19,6 @@
 [submodule "meta-measured"]
 	path = meta-measured
 	url = https://github.com/flihp/meta-measured.git
+[submodule "meta-intel"]
+	path = meta-intel
+	url = git://git.yoctoproject.org/meta-intel
