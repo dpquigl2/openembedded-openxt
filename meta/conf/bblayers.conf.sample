@@ -7,6 +7,26 @@ BBFILES ?= ""
 
 BBLAYERS ?= " \
   ##OEROOT##/meta \
+  ##OEROOT##/meta-openembedded/meta-efl \
+  ##OEROOT##/meta-openembedded/meta-filesystems \
+  ##OEROOT##/meta-openembedded/meta-gnome \
+  ##OEROOT##/meta-openembedded/meta-gpe \
+  ##OEROOT##/meta-openembedded/meta-initramfs \
+  ##OEROOT##/meta-openembedded/meta-multimedia \
+  ##OEROOT##/meta-openembedded/meta-networking \
+  ##OEROOT##/meta-openembedded/meta-oe \
+  ##OEROOT##/meta-openembedded/meta-perl \
+  ##OEROOT##/meta-openembedded/meta-python \
+  ##OEROOT##/meta-openembedded/meta-ruby \
+  ##OEROOT##/meta-openembedded/meta-systemd \
+  ##OEROOT##/meta-openembedded/meta-webserver \
+  ##OEROOT##/meta-openembedded/meta-xfce \
+  ##OEROOT##/meta-openxt \
+  ##OEROOT##/meta-java \
+  ##OEROOT##/meta-selinux \
+  ##OEROOT##/meta-measured \
+  ##OEROOT##/meta-intel \
+  ##OEROOT##/meta-intel/meta-nuc \
   "
 
 BBLAYERS_NON_REMOVABLE ?= " \

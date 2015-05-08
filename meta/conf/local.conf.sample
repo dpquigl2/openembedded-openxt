@@ -208,3 +208,26 @@ ASSUME_PROVIDED += "libsdl-native"
 # track the version of this file when it was generated. This can safely be ignored if
 # this doesn't mean anything to you.
 CONF_VERSION = "1"
+
+BBMASK="/meta-selinux/recipes-containers/lxc/"
+PREFERRED_VERSION_linux-yocto="3.14%"
+
+# Branch to build.
+OPENXT_BRANCH="master"
+#
+# # OpenXT git repositories. Optionally replace with a local mirror.
+OPENXT_GIT_MIRROR="github.com/OpenXT"
+OPENXT_GIT_PROTOCOL="git"
+# Downloads needed for OpenXT build. Optionally replace with a local mirror.
+OPENXT_MIRROR="http://mirror.openxt.org"
+
+# Used to construct build name.
+NAME_SITE="openxt"
+BUILD_TYPE="dev"
+
+# xen version and source
+XEN_VERSION="4.3.3"
+XEN_SRC_URI="http://bits.xensource.com/oss-xen/release/4.3.3/xen-4.3.3.tar.gz"
+XEN_SRC_MD5SUM="1b4438a50d8875700ac2c7e1ffbcd91b"
+XEN_SRC_SHA256SUM="59eb0e1c4a1f66965fe56dcf27cdb5872bf7e0585b7f2e60bd7967ec7f744ebf"
+
